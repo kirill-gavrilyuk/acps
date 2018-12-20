@@ -1,0 +1,16 @@
+{
+  "name": "acps",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "init": "npm install && bower install",
+    "build": "purs compile \"bower_components/purescript-*/src/**/*.purs\" src/Main.purs && purs bundle \"output/**/*.js\" -m Main > static/bundle.js",
+    "show": "chromium static/index.html"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "purescript": "^0.12.1"
+  }
+}

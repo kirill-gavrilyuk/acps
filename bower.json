@@ -1,0 +1,21 @@
+{
+  "name": "acps",
+  "description": "",
+  "main": "index.js",
+  "authors": [
+    "Kirill Gavrilyuk <k.gavrilyuk@atomcream.com>"
+  ],
+  "license": "ISC",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "purescript-prelude": "^4.1.0",
+    "purescript-arrays": "^5.2.0"
+  }
+}
